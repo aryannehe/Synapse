@@ -85,17 +85,15 @@ docker-compose up --build
 ```
 This boots the containers, binds internal ports, maps database volumes for persistence, and serves the application at [http://localhost:3000](http://localhost:3000).
 
+### 6. Production Compilation
+To bundle the optimized static pages and server route handlers:
+```bash
+npm run build
+```
 ---
-
 ## 🔑 Demo Access Credentials
 For reviewer validation and demonstration purposes, please use the following pre-configured database credentials to bypass the identity gate:
 
 - **Admin Manager:** `admin@synapse.com` / Password: `admin@1234`
 - **Employee Agent:** `aryan.nehe@synapse.com` / Password: `emp#123`
 - **Customer Client:** `sarah.j@techcorp.com` / Password: `cli@123`
-
-### 6. Production Compilation
-To bundle the optimized static pages and server route handlers:
-```bash
-npm run build
-```
