@@ -5,15 +5,6 @@ Welcome to the official repository of **Synapse Workspace**, the centralized com
 
 ---
 
-## 🔑 Demo Access Credentials
-For reviewer validation and demonstration purposes, please use the following pre-configured database credentials to bypass the identity gate:
-
-- **Admin Manager:** `admin@synapse.com` / Password: `admin@1234`
-- **Employee Agent:** `aryan.nehe@synapse.com` / Password: `emp#123`
-- **Customer Client:** `sarah.j@techcorp.com` / Password: `cli@123`
-
----
-
 ## 🚀 Key Modules & SaaS Features
 
 1. **Analytics Hub (Homepage)**:
@@ -93,6 +84,15 @@ You can launch the entire application stack (Next.js web container + MongoDB con
 docker-compose up --build
 ```
 This boots the containers, binds internal ports, maps database volumes for persistence, and serves the application at [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 🔑 Demo Access Credentials
+For reviewer validation and demonstration purposes, please use the following pre-configured database credentials to bypass the identity gate:
+
+- **Admin Manager:** `admin@synapse.com` / Password: `admin@1234`
+- **Employee Agent:** `aryan.nehe@synapse.com` / Password: `emp#123`
+- **Customer Client:** `sarah.j@techcorp.com` / Password: `cli@123`
 
 ### 6. Production Compilation
 To bundle the optimized static pages and server route handlers:
